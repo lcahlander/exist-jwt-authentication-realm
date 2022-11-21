@@ -53,6 +53,10 @@
         <!-- used in the EXPath Package Descriptor -->
         <package-name>https://exist-db.org/exist-db/authentication/realm/jwt</package-name>
 
+        <jwt.version>4.2.1</jwt.version>
+        <jsonpath.version>2.7.0</jsonpath.version>
+        <jackson.version>2.13.4.2</jackson.version>
+
         <example.module.namespace>http://exist-db.org/security/jwt/xquery</example.module.namespace>
         <example.module.java.classname>JWTModule</example.module.java.classname>
     </properties>
@@ -63,26 +67,21 @@
             <artifactId>exist-core</artifactId>
             <version>${exist.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.jayway.jsonpath</groupId>
             <artifactId>json-path</artifactId>
-            <version>2.7.0</version>
+            <version>${jsonpath.version}</version>
         </dependency>
-
-
-        <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
         <dependency>
             <groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
-            <version>3.15.0</version>
+            <version>${jwt.version}</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.13.2</version>
+            <version>${jackson.version}</version>
         </dependency>
-
 
         <!-- test dependencies -->
         <dependency>
