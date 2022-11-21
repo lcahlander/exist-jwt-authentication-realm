@@ -15,13 +15,13 @@
     <artifactId>exist-jwt-authentication-realm</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>Example App</name>
-    <description>Example App for eXist-db</description>
-    <url>https://my-organisation.com/exist-db/app</url>
+    <name>JWT Authentication</name>
+    <description>JWT Authentication Realm for eXist-db</description>
+    <url>https://exist-db.org/exist-db/authentication/realm/jwt</url>
 
     <organization>
-        <name>My Organisation</name>
-        <url>http://my-organisation.com</url>
+        <name>eXist-db</name>
+        <url>http://exist-db.org</url>
     </organization>
 
     <licenses>
@@ -33,14 +33,14 @@
     </licenses>
 
     <scm>
-        <url>https://www.github.com/my-organisation/example-exist-app.git</url>
-        <connection>scm:git:https://www.github.com/my-organisation/example-exist-app.git</connection>
-        <developerConnection>scm:git:https://www.github.com/my-organisation/example-exist-app.git</developerConnection>
+        <url>https://www.github.com/eXist-db/exist-jwt-authentication-realm.git</url>
+        <connection>scm:git:https://www.github.com/eXist-db/exist-jwt-authentication-realm.git</connection>
+        <developerConnection>scm:git:https://www.github.com/eXist-db/exist-jwt-authentication-realm.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://www.github.com/my-organisation/example-exist-app/issues</url>
+        <url>https://www.github.com/eXist-db/exist-jwt-authentication-realm/issues</url>
     </issueManagement>
 
     <properties>
@@ -51,7 +51,7 @@
         <exist.version>6.0.1</exist.version>
 
         <!-- used in the EXPath Package Descriptor -->
-        <package-name>https://my-organisation.com/exist-db/app</package-name>
+        <package-name>https://exist-db.org/exist-db/authentication/realm/jwt</package-name>
 
         <example.module.namespace>http://exist-db.org/security/jwt/xquery</example.module.namespace>
         <example.module.java.classname>JWTModule</example.module.java.classname>
