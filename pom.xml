@@ -13,7 +13,7 @@
 
     <groupId>org.exist-db</groupId>
     <artifactId>exist-jwt-authentication-realm</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>JWT Authentication</name>
     <description>JWT Authentication Realm for eXist-db</description>
@@ -33,14 +33,14 @@
     </licenses>
 
     <scm>
-        <url>https://www.github.com/eXist-db/exist-jwt-authentication-realm.git</url>
-        <connection>scm:git:https://www.github.com/eXist-db/exist-jwt-authentication-realm.git</connection>
-        <developerConnection>scm:git:https://www.github.com/eXist-db/exist-jwt-authentication-realm.git</developerConnection>
+        <url>https://www.github.com/lcahlander/exist-jwt-authentication-realm.git</url>
+        <connection>scm:git:https://www.github.com/lcahlander/exist-jwt-authentication-realm.git</connection>
+        <developerConnection>scm:git:https://www.github.com/lcahlander/exist-jwt-authentication-realm.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://www.github.com/eXist-db/exist-jwt-authentication-realm/issues</url>
+        <url>https://www.github.com/lcahlander/exist-jwt-authentication-realm/issues</url>
     </issueManagement>
 
     <properties>
