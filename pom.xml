@@ -53,7 +53,7 @@
         <!-- used in the EXPath Package Descriptor -->
         <package-name>https://exist-db.org/exist-db/authentication/realm/jwt</package-name>
 
-        <jwt.version>4.2.1</jwt.version>
+        <jwt.version>4.3.0</jwt.version>
         <jsonpath.version>2.7.0</jsonpath.version>
         <jackson.version>2.14.1</jackson.version>
 
