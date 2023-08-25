@@ -55,9 +55,9 @@
 
         <jwt.version>4.4.0</jwt.version>
         <jsonpath.version>2.8.0</jsonpath.version>
-        <jsonsmart.version>2.4.10</jsonsmart.version>
-        <accessorssmart.version>2.4.9</accessorssmart.version>
-        <jackson.version>2.14.1</jackson.version>
+        <jsonsmart.version>2.5.0</jsonsmart.version>
+        <accessorssmart.version>2.5.0</accessorssmart.version>
+        <jackson.version>2.14.2</jackson.version>
 
         <example.module.namespace>http://exist-db.org/security/jwt/xquery</example.module.namespace>
         <example.module.java.classname>JWTModule</example.module.java.classname>

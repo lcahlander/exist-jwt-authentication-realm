@@ -217,11 +217,10 @@ public class JWTRealm extends AbstractRealm {
         //first attempt to get the cached account
         Account acct = null;
 
-        try {
+        try (final DBBroker broker = getDatabase().get(Optional.of(getSecurityManager().getSystemSubject()))) {
             final String name = ctx.read(identifierFieldPath);
             LOG.info("name = " + name);
             acct = super.getAccount(name);
-            final DBBroker broker = getDatabase().get(Optional.of(getSecurityManager().getSystemSubject()));
 
             if (acct != null) {
                 LOG.info("Cached used.");
