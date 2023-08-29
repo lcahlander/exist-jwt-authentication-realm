@@ -84,6 +84,7 @@ public class JWTRealm extends AbstractRealm {
     public JWTRealm(final SecurityManagerImpl sm, final Configuration config) {
         super(sm, config);
         instance = this;
+        LOG.info("JWT Authentication Realm is loaded");
     }
 
     /**
